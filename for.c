@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int i = 5;
-    while (i >= 0)
+    for(int i = 5; i >= 0; i--)
     {
         printf("%d\n", i);
-        i--;
     }
 }
